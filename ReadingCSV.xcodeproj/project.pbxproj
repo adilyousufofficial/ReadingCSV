@@ -14,6 +14,9 @@
 		34079AA7276779B900BD2350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34079AA6276779B900BD2350 /* Assets.xcassets */; };
 		34079AAA276779B900BD2350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34079AA8276779B900BD2350 /* LaunchScreen.storyboard */; };
 		34079AAD276779B900BD2350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34079AAC276779B900BD2350 /* main.m */; };
+		34079AB427677A7B00BD2350 /* english_ios_translation_keys.csv in Resources */ = {isa = PBXBuildFile; fileRef = 34079AB327677A7B00BD2350 /* english_ios_translation_keys.csv */; };
+		34AC17E4276A6C5D002C4640 /* final.csv in Resources */ = {isa = PBXBuildFile; fileRef = 34AC17E3276A6C5D002C4640 /* final.csv */; };
+		34AC17E6276A6FFB002C4640 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 34AC17E5276A6FFA002C4640 /* test.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		34079AA9276779B900BD2350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34079AAB276779B900BD2350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34079AAC276779B900BD2350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34079AB327677A7B00BD2350 /* english_ios_translation_keys.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english_ios_translation_keys.csv; sourceTree = "<group>"; };
+		34AC17E3276A6C5D002C4640 /* final.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = final.csv; sourceTree = "<group>"; };
+		34AC17E5276A6FFA002C4640 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				34079A9E276779B600BD2350 /* SceneDelegate.m */,
 				34079AA0276779B600BD2350 /* ViewController.h */,
 				34079AA1276779B600BD2350 /* ViewController.m */,
+				34079AB327677A7B00BD2350 /* english_ios_translation_keys.csv */,
+				34AC17E5276A6FFA002C4640 /* test.csv */,
+				34AC17E3276A6C5D002C4640 /* final.csv */,
 				34079AA3276779B600BD2350 /* Main.storyboard */,
 				34079AA6276779B900BD2350 /* Assets.xcassets */,
 				34079AA8276779B900BD2350 /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			files = (
 				34079AAA276779B900BD2350 /* LaunchScreen.storyboard in Resources */,
 				34079AA7276779B900BD2350 /* Assets.xcassets in Resources */,
+				34AC17E6276A6FFB002C4640 /* test.csv in Resources */,
+				34079AB427677A7B00BD2350 /* english_ios_translation_keys.csv in Resources */,
 				34079AA5276779B600BD2350 /* Main.storyboard in Resources */,
+				34AC17E4276A6C5D002C4640 /* final.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
